@@ -1,0 +1,17 @@
+{
+  "name": "chatting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm start --prefix chat-server",
+    "client": "npm start --prefix chat-client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "concurrently": "^6.2.1"
+  }
+}
